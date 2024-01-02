@@ -1,0 +1,6 @@
+A forma certa do código seria a seguinte:
+
+    while True:
+      print('Hello world')
+      
+  Os erros de sintaxe em Python,não é possível usar try e except, pois esses blocos são destinados a lidar com exceções em tempo de execução, não com erros de sintaxe que impedem a interpretação do código.Por isso, os erros de sintaxe devem ser corrigidos diretamente no código antes da execução.
